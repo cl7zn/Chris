@@ -15,10 +15,10 @@ a:hover {
 }
 
 .site-wrapper {
-background-image: url("./djchris1.jpg");
+background-image: url("./djing.jpg");
 background-size: cover;
 background-repeat: no-repeat;
-border: 10px solid black;
+border: 2px solid black;
 }
 
 
@@ -82,6 +82,8 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
+  font-family: Courier New, Verdana, Helvetica, sans-serif;
+  font-size: 10px;
 }
 
 .nav-masthead .nav-link {
@@ -90,6 +92,7 @@ body {
   color: rgba(255,255,255,.5);
   background-color: transparent;
   border-bottom: .25rem solid transparent;
+  font-family: Verdana, Helvetica, sans-serif;
 }
 
 .nav-masthead .nav-link:hover,
@@ -171,3 +174,46 @@ body {
     width: 42rem;
   }
 }
+
+.container {
+    float: center;
+}
+
+
+.album {
+    min-height: 50rem; /* Can be removed; just added for demo purposes */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .card {
+    width: 50%;
+    height: auto;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+  }
+  
+  .card > img {
+    float: center;
+    margin-bottom: .75rem;
+    height: auto;
+    width: 150%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: double;
+  }
+  
+  .card-text {
+    float: center;
+    font-size: 100%;
+    font-family: Courier New, Verdana, Helvetica, sans-serif;
+  }
+  .lead {
+    float: center;
+  }
